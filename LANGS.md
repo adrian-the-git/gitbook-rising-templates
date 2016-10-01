@@ -1,5 +1,5 @@
 # Languages
 
 {% for each in languages %}
-* [each](each/)
+* [{{ each }}]({{ each }}/)
 {% endfor %}
